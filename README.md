@@ -4,8 +4,6 @@ This is a simple React-based decentralized application (dApp) built using Create
 
 The app connects to the Freighter wallet and allows users to send XLM on the Stellar Test Network. It is created for learning and testing purposes.
 
-
-
 ## What This App Does
 
 - Connects to Freighter wallet
