@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Simple Payment dApp (Stellar Testnet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React-based decentralized application (dApp) built using Create React App.
 
-## Available Scripts
+The app connects to the Freighter wallet and allows users to send XLM on the Stellar Test Network. It is created for learning and testing purposes.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What This App Does
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Connects to Freighter wallet
+- Fetches wallet address
+- Displays XLM balance
+- Sends XLM to another Stellar address
+- Shows transaction hash after successful transfer
+- Handles common transaction errors
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before running the project, make sure you have:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js installed
+- npm installed
+- Freighter browser extension installed
+- Freighter set to "Testnet"
+- A funded Stellar Testnet account
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If your account is not funded, you can use the Stellar Friendbot to fund it.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Run the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open terminal inside the project folder.
+2. Install all dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   npm install
 
-## Learn More
+3. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Open your browser and visit:
 
-### Code Splitting
+   http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will reload automatically whenever you save changes.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## How to Use the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Click "Connect Freighter Wallet".
+2. Approve the connection in the Freighter extension.
+3. Your wallet address and XLM balance will appear.
+4. Enter a valid Stellar Testnet public address.
+5. Enter the amount of XLM to send.
+6. Click "Send XLM".
+7. Confirm the transaction in Freighter.
+8. After confirmation, the transaction hash will be displayed.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Important Notes
 
-### `npm run build` fails to minify
+- This project uses Stellar Testnet only.
+- Do NOT use real mainnet funds.
+- This is a learning/demo application.
+- Always confirm transactions before signing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
